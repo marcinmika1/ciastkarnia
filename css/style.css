@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    background: white;
+    font-family: 'Prompt', sans-serif;
+    color: gray;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    float: left;
+    margin: 8px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+li:hover{
+    color: red;
+}
+
+section{
+    width: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 20px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 span{
+/*    font-family: 'Pacifico', cursive;*/
+    font-family: 'Rock Salt', cursive;
+    color: red;
+}
+
+i{
+    width: 33%;
+    font-size: 10px;
+    color: red;
+    float: left;
+    margin-top: 20px;
+}
+
+i:hover{
+    color:darkred;
+}
+
+i span{
+    display: inline-block;
+    font-size: 30px;
+}
+
+form{
+    height: 500px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+
+input{
+    width: 35%;
+    height: 30px;
+    margin: 3%;
+    text-align: center;
+}
+
+textarea{
+    width: 90%;
+    height: 200px;
+}
+
+button{
+    width: 90%;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+#section-1 h1{
+    width: 60%;
+    position: absolute;
+    top:30%;
+    font-size: 40px;
+}
+
+#section-1 h3{
+    width: 60%;
+    position: absolute;
+    top:50%;
+    font-size: 30px;
+}
+
+#section-1{
+    height: 60vh;
+    background-image:url(/img/section-1.jpg);
+}
+
+#section-3{
+    height: 50vh;
+}
+
+#section-3 article{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#fotoSection-3{
+    background-image: url(/img/section-3-new.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#section-5{
+    height: 50vh;
+    background-image:url(/img/section-3.jpg);
+}
+
+#section-6{
+    font-size:120px;
+}
+
+#section-6 p{
+    width: 33%;
+    margin: 0;
+    float: left;
+    display: inline-block;
+}
+
+#discribe-c-6{
+    width: 99%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#section-7{
+    height: 50vh;
+    background-image:url(/img/section-7.jpg);
+}
+
+#section-9 article{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.divSection-9{
+    margin: 20px;
+    height: 30vw;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+
+.divSection-9:hover{
+    box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+    -webkit-transition: all 300ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 300ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 300ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 300ms ease-in;
+    transform: scale(1.1);
+}
+
+#article-1-section-9{
+    background-image: url(/img/section-9-a-1.jpg);
+}
+
+#article-2-section-9{
+    background-image: url(/img/section-9-a-2.jpg);
+}
+
+#article-3-section-9{
+    background-image: url(/img/section-9-a-3.jpg);
+}
+
+#article-4-section-9{
+    background-image: url(/img/section-9-a-4.jpg);
+}
+
+.btnSection-9{
+    width: 50%;
+    text-align: center;
+    margin: 25%;
+    margin-top: 120%;
+    font-size: 15px;
+}
+
+#section-10{
+    text-align: center;
+    background-color: black
+}
+
+#section-10 h1{
+    margin: 0;
+}
+
+
+
+#social-media{
+    display: inline-block;
+    width: 50%;
+    height: 70px;
+    margin: 0;
+}
+
+#social-media i{
+    display: inline-block;
+    font-size: 50px;
+    color:deepskyblue;
+    margin: 0;
+}
+
+#social-media i:hover{
+    color:mediumblue;
+}
+
+#section-10 form{
+    height: 200px;
+    width: 80%;
+}
