@@ -127,7 +127,7 @@ button:hover{
 
 #section-1{
     height: 60vh;
-    background-image:url(/img/section-1.jpg);
+    background-image:url(img/section-1.jpg);
 }
 
 #section-3{
@@ -141,14 +141,14 @@ button:hover{
 }
 
 #fotoSection-3{
-    background-image: url(/img/section-3-new.jpg);
+    background-image: url(img/section-3-new.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #section-5{
     height: 50vh;
-    background-image:url(/img/section-3.jpg);
+    background-image:url(img/section-3.jpg);
 }
 
 #section-6{
@@ -172,7 +172,7 @@ button:hover{
 
 #section-7{
     height: 50vh;
-    background-image:url(/img/section-7.jpg);
+    background-image:url(img/section-7.jpg);
 }
 
 #section-9 article{
@@ -212,19 +212,19 @@ button:hover{
 }
 
 #article-1-section-9{
-    background-image: url(/img/section-9-a-1.jpg);
+    background-image: url(img/section-9-a-1.jpg);
 }
 
 #article-2-section-9{
-    background-image: url(/img/section-9-a-2.jpg);
+    background-image: url(img/section-9-a-2.jpg);
 }
 
 #article-3-section-9{
-    background-image: url(/img/section-9-a-3.jpg);
+    background-image: url(img/section-9-a-3.jpg);
 }
 
 #article-4-section-9{
-    background-image: url(/img/section-9-a-4.jpg);
+    background-image: url(img/section-9-a-4.jpg);
 }
 
 .btnSection-9{
